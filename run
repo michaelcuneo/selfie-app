@@ -1,4 +1,4 @@
-#!/bin/bash
+﻿#!/bin/bash
 # Selfie Script
 
 sudo instagram-scraper selfie --tag --login-user michaelcuneouon --login-pass M0bean0e75! --retry-forever --maximum 25000 -t image --latest -d selfie |
