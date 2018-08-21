@@ -79,19 +79,39 @@ pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo systemctl daemon-reload
 
 ### AND NOW YOU'RE GOOD TO GO! ###
 
-#### to start the scraper manually. ####
+#### to start the instagram_scraper manually. ####
 ```console
 pi@raspberrypi:~/Desktop/selfie-app $ ./run_instagram_scraper
 ```
-#### to start the printer manually. ####
+#### to start the batch_printer manually. ####
 ```console
 pi@raspberrypi:~/Desktop/selfie-app $ ./run_batch_print
 ```
-#### to start the selfie-app instagram scraper service. ####
+
+#### to start the selfie-app instagram scraper as a service. ####
 ```console
 $ sudo systemctl start selfie-app_instagram-scraper.service
 ```
-#### to start the selfie-app batch printer service. ####
+#### to stop the selfie-app instagram scraper as a service. ####
+```console
+$ sudo systemctl stop selfie-app_instagram-scraper.service
+```
+#### to get the status of the selfie-app instagram scraper as a service. ####
+```console
+$ sudo systemctl status selfie-app_instagram-scraper.service
+```
+
+#### to start the selfie-app batch printer as a service. ####
 ```console
 $ sudo systemctl start selfie-app_batch-print.service
 ```
+#### to stop the selfie-app batch printer as a service. ####
+```console
+$ sudo systemctl stop selfie-app_batch-print.service
+```
+#### to get the status of the selfie-app batch printer as a service. ####
+```console
+$ sudo systemctl status selfie-app_batch-print.service
+```
+
+### If you have any problems, error logs will be in /var/log/syslog, prefixed with selfie-app_batch-print & selfie-app_instagram-scraper ###
