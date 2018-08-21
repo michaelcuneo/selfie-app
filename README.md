@@ -34,7 +34,7 @@ pi@raspberrypi:~$ sudo apt-get upgrade
 ```
 Grab the prerequisites.
 ```console
-pi@raspberrypi:~$ sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
+pi@raspberrypi:~$ sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-bsd cups-client inotify-tools
 ```
 Add the user pi, to the lpadmin group so you can run CUPS Administration.
 ```console
