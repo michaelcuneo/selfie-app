@@ -1,9 +1,22 @@
 # selfie-app
 #
 
-To setup a brand new Raspberry Pi from scratch.
+**To setup a brand new Raspberry Pi from scratch.**
 
-Prerequisites run from anywhere...
+Prerequisites.
+
+- libcups2-dev
+- libcupsimage2-dev
+- g++
+- cups
+- cups-client
+- lpr
+- inotify-tools
+- any printer.
+
+** Before I get to writing a lovely script to install and set all this up automatically, just do the following. **
+
+__ FROM ANYWHERE __
 
 sudo apt-get update
 sudo apt-get upgrade
