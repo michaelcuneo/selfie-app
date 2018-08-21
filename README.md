@@ -1,9 +1,9 @@
 ### Selfie-App - Written as a supplement to automate the processes of duplicating the services of Instagram Scraping and Printing for Ralph Kenke & Elmar Trefz Selfie Factory Installation ###
 
-Clone this repository to ~/home/pi/Desktop/
+## NB. Clone this repository to ~/home/pi/Desktop/ I'll write something better to run the service from elsewhere later. ##
 
 **TODO:**
-- [ ] Write an automated script to set up everything.
+- [ ] Write an automated script to set everything up properly.
 - [ ] Write a script to automate the CRON setup.
 
 **To setup a brand new Raspberry Pi from scratch.**
@@ -20,7 +20,7 @@ Prerequisites.
 - https://github.com/adafruit/zj-58 or any other printer.
 - https://github.com/rarcega/instagram-scraper
 
-**Before I get to writing a lovely script to automatically install everything from scratch... just do the following, to set up the service on additional rPI's**
+**Before I get to writing a lovely script to automatically install everything from scratch... just do the following, to set up the service on any rPI's**
 
 __FROM ANY FOLDER__
 
@@ -77,7 +77,7 @@ pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_batch-print.servi
 pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo systemctl daemon-reload
 ```
 
-**AND NOW YOU'RE GOOD TO GO!**
+### AND NOW YOU'RE GOOD TO GO! ###
 
 #### to start the scraper manually. ####
 ```console
