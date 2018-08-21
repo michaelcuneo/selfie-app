@@ -89,9 +89,9 @@ pi@raspberrypi:~/Desktop/selfie-app $ ./run_batch_print
 ```
 #### to start the selfie-app instagram scraper service. ####
 ```console
-$ sudo systemctl start selfie-app_instagram_scraper.service
+$ sudo systemctl start selfie-app_instagram-scraper.service
 ```
 #### to start the selfie-app batch printer service. ####
 ```console
-$ sudo systemctl start selfie-app_batch_print.service
+$ sudo systemctl start selfie-app_batch-print.service
 ```
