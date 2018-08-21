@@ -1,0 +1,15 @@
+[Unit]
+Description=Selfie App Instagram Scraper
+After=network.target
+
+[Service]
+ExecStart=/home/pi/Desktop/selfie-app/run_instagram_scraper
+WorkingDirectory=/home/pi/Desktop/selfie-app
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=selfie-app_instagram-scraper
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target

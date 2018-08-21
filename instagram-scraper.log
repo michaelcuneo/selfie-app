@@ -1,0 +1,3 @@
+2018-08-21 12:11:27,074 - instagram_scraper.app - WARNING - Failed to get media details for BmuULR8A3KR
+2018-08-21 12:11:46,615 - instagram_scraper.app - WARNING - Retry after exception HTTPError(u'502 Server Error: Bad Gateway for url: https://www.instagram.com/p/BmuT1afF6h9/?__a=1',) on https://www.instagram.com/p/BmuT1afF6h9/?__a=1
+2018-08-21 12:12:04,833 - instagram_scraper.app - WARNING - Retry after exception HTTPError(u'502 Server Error: Bad Gateway for url: https://www.instagram.com/p/BmuT1afF6h9/?__a=1',) on https://www.instagram.com/p/BmuT1afF6h9/?__a=1
