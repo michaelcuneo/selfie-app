@@ -61,7 +61,7 @@ __FROM SETUP FOLDER__
 There's an issue with the latest instagram-scraper python app. Replace the app.py with the app.py included.
 * copy App.py to /usr/local/lib/python2.7/instagram-scraper to replace the existing app.py file.
 ```console
-pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp app.py /usr/local/lib/python2.7/instagram-scraper
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp app.py /usr/local/lib/python2.7/dist-packages/instagram-scraper
 ```
 
 * copy selfie-app_instagram-scraper.service to /etc/systemd/system
