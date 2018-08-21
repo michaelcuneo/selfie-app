@@ -56,7 +56,7 @@ Install Instagram Scraper from https://github.com/rarcega/instagram-scraper
 pi@raspberrypi:~$ sudo pip install instagram-scraper
 ```
 
-__From setup folder__
+__FROM SETUP FOLDER__
 
 There's an issue with the latest instagram-scraper python app. Replace the app.py with the app.py included.
 * copy App.py to /usr/local/lib/python2.7/instagram-scraper to replace the existing app.py file.
