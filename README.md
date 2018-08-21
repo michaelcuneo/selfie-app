@@ -45,7 +45,9 @@ Add the printer inside CUPS Administration.
 * Goto http://localhost:631/admin and add your printer.
 
 Install Instagram Scraper from https://github.com/rarcega/instagram-scraper
-* pip install instagram-scraper
+```console
+pi@raspberrypi:~$ sudo pip install instagram-scraper
+```
 
 __From setup folder__
 
