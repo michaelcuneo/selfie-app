@@ -12,7 +12,7 @@ Prerequisites.
 - g++
 - cups
 - cups-client
-- lpr
+- cups-bsd
 - inotify-tools
 - any printer.
 
