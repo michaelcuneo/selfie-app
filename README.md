@@ -1,4 +1,4 @@
-# selfie-app
+# Selfie-App - Written to assist and automate the processes of Ralph Kenke's Portrait Prize.
 #
 
 - [ ] Write an automated script to set up everything.
