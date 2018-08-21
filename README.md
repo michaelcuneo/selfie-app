@@ -15,31 +15,37 @@ Prerequisites.
 - cups-client
 - cups-bsd
 - inotify-tools
-- any printer.
+- https://github.com/adafruit/zj-58 or any other printer.
+- https://github.com/rarcega/instagram-scraper
 
-**Before I get to writing a lovely script to install and set all this up automatically, just do the following.**
+**Before I get to writing a lovely script to automatically install everything from scratch... just do the following, to set up the service on additional rPI's**
 
-__FROM ANYWHERE__
+__FROM ANY FOLDER__
 
+Update the local apt repositories.
 * sudo apt-get update
 
+Upgrade to the latest version of everything.
 * sudo apt-get upgrade
 
+Grab the prerequisites.
 * sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
 
 Add the user pi, to the lpadmin group so you can run CUPS Administration.
 * sudo usermod -a -G lpadmin pi
 
+Install adafruit zj-58 driver from https://github.com/adafruit/zj-58
+ or other printer driver.
+ 
 Add the printer inside CUPS Administration.
 * Goto http://localhost:631/admin and add your printer.
 
-__Inside zj-58 Folder__
-
-* sudo ./make
-* sudo ./install
+Install Instagram Scraper from https://github.com/rarcega/instagram-scraper
+* pip install instagram-scraper
 
 __From setup folder__
 
+There's an issue with the latest instagram-scraper python app. Replace the app.py with the app.py included.
 * copy App.py to /usr/local/lib/python2.7/instagram-scraper to replace the existing app.py file.
 
 * copy selfie-app_instagram_print to /etc/systemd/system
