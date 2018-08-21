@@ -35,8 +35,9 @@ Grab the prerequisites.
 pi@raspberrypi:~$ sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
 ```
 Add the user pi, to the lpadmin group so you can run CUPS Administration.
-* sudo usermod -a -G lpadmin pi
-
+```console
+pi@raspberrypi:~$ sudo usermod -a -G lpadmin pi
+```
 Install adafruit zj-58 driver from https://github.com/adafruit/zj-58
  or other printer driver.
  
@@ -50,12 +51,22 @@ __From setup folder__
 
 There's an issue with the latest instagram-scraper python app. Replace the app.py with the app.py included.
 * copy App.py to /usr/local/lib/python2.7/instagram-scraper to replace the existing app.py file.
+```console
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp app.py /usr/local/lib/python2.7/instagram-scraper
+```
 
 * copy selfie-app_instagram_print to /etc/systemd/system
-* run sudo systemctl daemon-reload
- 
+```console
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_instagram_print to /etc/systemd/system
+```
 * copy selfie-app_batch_print to /etc/systemd/system
-* run sudo systemctl daemon-reload
+```console
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_batch_print to /etc/systemd/system
+```
+* Restart the systemctl daemon
+```console
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo systemctl daemon-reload
+```
 
 **AND NOW YOU'RE GOOD TO GO!**
 
