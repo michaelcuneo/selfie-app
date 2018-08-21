@@ -59,11 +59,11 @@ There's an issue with the latest instagram-scraper python app. Replace the app.p
 pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp app.py /usr/local/lib/python2.7/instagram-scraper
 ```
 
-* copy selfie-app_instagram_print to /etc/systemd/system
+* copy selfie-app_instagram-scraper.service to /etc/systemd/system
 ```console
 pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_instagram-scraper.service /etc/systemd/system
 ```
-* copy selfie-app_batch_print to /etc/systemd/system
+* copy selfie-app_batch-print.service to /etc/systemd/system
 ```console
 pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_batch-print.service /etc/systemd/system
 ```
