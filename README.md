@@ -1,5 +1,7 @@
 ### Selfie-App - Written as a supplement to automate the processes of duplicating the services of Instagram Scraping and Printing for Ralph Kenke & Elmar Trefz Selfie Factory Installation ###
 
+Clone this repository to ~/home/pi/Desktop/
+
 **TODO:**
 - [ ] Write an automated script to set up everything.
 - [ ] Write a script to automate the CRON setup.
