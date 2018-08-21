@@ -1,5 +1,4 @@
-# Selfie-App - Written to assist and automate the processes of Ralph Kenke's Portrait Prize.
-#
+## Selfie-App - Written to assist and automate the processes of Ralph Kenke's Portrait Prize.
 
 - [ ] Write an automated script to set up everything.
 - [ ] Write a script to automate the CRON setup.
@@ -43,10 +42,11 @@ __From setup folder__
 
 **AND NOW YOU'RE GOOD TO GO!**
 
-#to start the scraper manually.#
+#### to start the scraper manually. ####
 *./run_instagram_scraper
-#to start the printer manually.#
+#### to start the printer manually. ####
 *./run_batch_print 
-
-sudo systemctl start selfie-app_instagram_print to start the selfie-app instagram scraper service.
-sudo systemctl start selfie-app_batch_print to start the selfie-app batch printer service.
+#### to start the selfie-app instagram scraper service. ****
+*sudo systemctl start selfie-app_instagram_print
+#### to start the selfie-app batch printer service. ####
+*sudo systemctl start selfie-app_batch_print 
