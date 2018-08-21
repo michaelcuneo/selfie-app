@@ -114,4 +114,4 @@ $ sudo systemctl stop selfie-app_batch-print.service
 $ sudo systemctl status selfie-app_batch-print.service
 ```
 
-### If you have any problems, error logs will be in /var/log/syslog, prefixed with selfie-app_batch-print & selfie-app_instagram-scraper ###
+### If you have any problems, you can check the error logs which will be in /var/log/syslog, prefixed with either selfie-app_batch-print or selfie-app_instagram-scraper, respective. ###
