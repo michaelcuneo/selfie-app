@@ -57,11 +57,11 @@ pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp app.py /usr/local/lib/python
 
 * copy selfie-app_instagram_print to /etc/systemd/system
 ```console
-pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_instagram_print to /etc/systemd/system
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_instagram-scraper.service /etc/systemd/system
 ```
 * copy selfie-app_batch_print to /etc/systemd/system
 ```console
-pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_batch_print to /etc/systemd/system
+pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo cp selfie-app_batch-print.service /etc/systemd/system
 ```
 * Restart the systemctl daemon
 ```console
@@ -71,10 +71,18 @@ pi@raspberrypi:~/Desktop/selfie-app/setup $ sudo systemctl daemon-reload
 **AND NOW YOU'RE GOOD TO GO!**
 
 #### to start the scraper manually. ####
-* ./run_instagram_scraper
+```console
+pi@raspberrypi:~/Desktop/selfie-app $ ./run_instagram_scraper
+```
 #### to start the printer manually. ####
-* ./run_batch_print 
+```console
+pi@raspberrypi:~/Desktop/selfie-app $ ./run_batch_print
+```
 #### to start the selfie-app instagram scraper service. ####
-* sudo systemctl start selfie-app_instagram_print
+```console
+$ sudo systemctl start selfie-app_instagram_print
+```
 #### to start the selfie-app batch printer service. ####
-* sudo systemctl start selfie-app_batch_print 
+```console
+$ sudo systemctl start selfie-app_batch_print 
+```
