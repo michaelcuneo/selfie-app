@@ -22,7 +22,9 @@ Prerequisites.
 __FROM ANYWHERE__
 
 sudo apt-get update
+
 sudo apt-get upgrade
+
 sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
 
 __Inside zj-58 Folder__
