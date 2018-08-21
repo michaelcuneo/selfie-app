@@ -3,8 +3,8 @@
 ### NB. Clone this repository to ~/home/pi/Desktop/ I'll write something better to run the service from elsewhere later. ###
 
 **TODO:**
-- [ ] Write an automated script to set everything up properly.
-- [ ] Write a script to automate the CRON setup.
+- [ ] Write an automated script to set everything up automatically.
+- [ ] Setup CRON scripts.
 
 **To setup a brand new Raspberry Pi from scratch.**
 
