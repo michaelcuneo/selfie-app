@@ -23,7 +23,9 @@ Prerequisites.
 __FROM ANY FOLDER__
 
 Update the local apt repositories.
-* sudo apt-get update
+```console
+pi@raspberrypi:~$ sudo apt-get update
+```
 
 Upgrade to the latest version of everything.
 * sudo apt-get upgrade
