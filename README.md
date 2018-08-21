@@ -28,6 +28,7 @@ __FROM ANYWHERE__
 
 __Inside zj-58 Folder__
 
+* sudo ./make
 * sudo ./install
 
 __From setup folder__
