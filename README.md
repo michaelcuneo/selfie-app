@@ -26,6 +26,12 @@ __FROM ANYWHERE__
 
 * sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
 
+Add the user pi, to the lpadmin group so you can run CUPS Administration.
+* sudo usermod -a -G lpadmin pi
+
+Add the printer inside CUPS Administration.
+* Goto http://localhost:631/admin and add your printer.
+
 __Inside zj-58 Folder__
 
 * sudo ./make
