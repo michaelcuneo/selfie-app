@@ -1,6 +1,6 @@
 ### Selfie-App - Written as a supplement to automate the processes of duplicating the services of Instagram Scraping and Printing for Ralph Kenke & Elmar Trefz Selfie Factory Installation ###
 
-**:TODO
+**TODO:**
 - [ ] Write an automated script to set up everything.
 - [ ] Write a script to automate the CRON setup.
 
