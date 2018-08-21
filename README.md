@@ -26,13 +26,14 @@ Update the local apt repositories.
 ```console
 pi@raspberrypi:~$ sudo apt-get update
 ```
-
 Upgrade to the latest version of everything.
-* sudo apt-get upgrade
-
+```console
+pi@raspberrypi:~$ sudo apt-get upgrade
+```
 Grab the prerequisites.
-* sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
-
+```console
+pi@raspberrypi:~$ sudo apt-get install libcups2-dev libcupsimage2-dev g++ cups cups-client lpr inotify-tools
+```
 Add the user pi, to the lpadmin group so you can run CUPS Administration.
 * sudo usermod -a -G lpadmin pi
 
