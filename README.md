@@ -46,10 +46,10 @@ Install adafruit zj-58 driver from https://github.com/adafruit/zj-58
 Add the printer inside CUPS Administration.
 * Goto http://localhost:631/admin and add your printer.
 * If the printer is a ZJ-58 use the following settings to prevent it spitting out crap in between images.
-⋅⋅* BAUD RATE = 2400 (Yes it will show up as connected at 115200, ignore it)
-⋅⋅* Bits = 8
-⋅⋅* Parity = NONE
-⋅⋅* Flow Control = NONE
+  * BAUD RATE = 2400 (Yes it will show up as connected at 115200, ignore it)
+  * Bits = 8
+  * Parity = NONE
+  * Flow Control = NONE
 
 Install Instagram Scraper from https://github.com/rarcega/instagram-scraper
 ```console
